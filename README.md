@@ -12,6 +12,7 @@ DDNS更新脚本
 
 
 $ sudo opkg update
+
 $ sudo opkg install curl
 
 
