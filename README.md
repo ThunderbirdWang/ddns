@@ -3,12 +3,12 @@ DDNS更新脚本
 操作系统openwrt
 域名服务商DNSPod
 
-##替换wan接口
+## 替换wan接口
 将源码中的pppoe-wan3替换为对应的wan接口名
 
 获取域名和记录 ID
 
-##安装curl
+## 安装curl
 
 给 OpenWrt 安装 cURL：
 
@@ -26,9 +26,9 @@ $ sudo opkg install curl
 
 
 
-##获取域名ID
+## 获取域名ID
 curl -X POST https://dnsapi.cn/Domain.List -d 'login_token=LOGIN_TOKEN&format=json'
-##获取记录ID
+## 获取记录ID
 curl -X POST https://dnsapi.cn/Record.List -d 'login_token=LOGIN_TOKEN&format=json&domain_id=DOMAIN_ID'
 
 
