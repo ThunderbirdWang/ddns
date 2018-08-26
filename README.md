@@ -6,7 +6,7 @@ DDNS更新脚本
 ## 替换wan接口
 将源码中的pppoe-wan3替换为对应的wan接口名
 
-获取域名和记录 ID
+# 获取域名和记录 ID
 
 ## 安装curl
 
