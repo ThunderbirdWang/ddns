@@ -49,7 +49,7 @@ curl: (77) Error reading ca cert path /etc/ssl/certs - PolarSSL: (-0x2900) X509 
 
 
 可以试着安装 ca-certificates 后重试
-opkg install ca-certificates
+opkg install ca-certificates ca-bundle
 
 ## 使用
 将脚本存放到openwrt中，在luci的ddns设置中的“自定义更新脚本”设置对应路径
